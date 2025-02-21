@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "layout-safe-n-load",
-  "title": "Layout Safe 'n' Load",
-  "description": "",
-  "icon": "extension-icon.png",
+  "name": "window-layout-manager",
+  "title": "Window Layout Manager",
+  "description": "Save Load Delete Layouts for selected App Windows",
+  "icon": "grid-windows.svg",
   "author": "fgeck",
   "categories": [
     "Productivity"
@@ -11,15 +11,9 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "save-layout",
-      "title": "Save Layout",
-      "description": "",
-      "mode": "view"
-    },
-    {
-      "name": "load-layout",
-      "title": "Load Layout",
-      "description": "",
+      "name": "manage-app-layouts",
+      "title": "Manage App Layouts",
+      "description": "Save Load Delete Layouts for selected App Windows",
       "mode": "view"
     }
   ],
